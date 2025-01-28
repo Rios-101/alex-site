@@ -23,7 +23,7 @@ const ProjectCard = ({ image, title, text, link }: Props) => {
   return (
     <div
       onClick={handleFlip}
-      className='w-[450px] h-[280px] rounded-md cursor-pointer'>
+      className='lg:w-[450px] w-[280px] h-[280px] rounded-md cursor-pointer'>
       <motion.div
         className='flip-card-inner w-full h-full'
         initial={false}

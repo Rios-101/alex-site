@@ -10,16 +10,16 @@ export default function Home() {
         className="flex items-center w-full h-full bg-cover bg-center"
         style={{ backgroundImage: "url(/main-bg.webp)" }}
       >
-        <div className="pl-20 md:pl-40 pb-56 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
-          <h1 className="text-[50px] text-white font-semibold">
+        <div className="pl-10 xl:pl-40 pb-16 md:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
+          <h1 className="lg:text-[50px] md:text-3xl text-2xl md:leading-[3.25rem] text-white font-semibold">
             Make anything possible with
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
               Flutter
             </span>
           </h1>
-          <p className="text-gray-200 hidden md:block">
-            With Flutter, I can turn your ideas into fully functional apps across mobile, web, and desktop. Whether it’s a <strong>drum app</strong> that reacts to every tap with precision, a <strong>custom e-commerce platform</strong>, or an <strong>AI-powered assistant</strong>, Flutter’s powerful tools and flexible design system make it all possible. Its cross-platform capabilities mean faster development without compromising performance or user experience, ensuring your vision comes to life on any device.
+          <p className="text-gray-200 text-sm md:text-base xl:w-full md:w-[70%] w-full">
+            With Flutter, I can turn your ideas into fully functional apps across mobile, web, and desktop. Whether it’s a <strong>drum app</strong> that reacts to every tap with precision, a <strong>custom e-commerce platform</strong>, or an <strong>AI-powered assistant</strong>, Flutter’s powerful tools and flexible design system make it all possible. <span className="hidden md:block">Its cross-platform capabilities mean faster development without compromising performance or user experience, ensuring your vision comes to life on any device.</span>
           </p>
 
           <div className="flex-col md:flex-row hidden md:flex gap-5">
@@ -59,7 +59,7 @@ export default function Home() {
         </Link>
       </div>
 
-      <div className="absolute bottom-0 right-0 z-[10]">
+      <div className="lg:absolute hidden lg:block bottom-0 right-0 z-[10]">
         <Image
           src="/horse.png"
           alt="horse"
